@@ -22,7 +22,6 @@ This query calculates how many books are present in each genre by grouping the b
 
 
 -- 3. Query to list members with borrow books, ordered by oldest first.
--- Author: Gabriel
 
 SELECT Name, Title, borrow_date
 FROM Borrows
